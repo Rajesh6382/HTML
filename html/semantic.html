@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Form</title>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <form action=""></form>
+    <fieldset>
+        <legend><strong>Personal Info</strong></legend>
+        <p>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Enter your First Name" required>
+        </p>
+        <p>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Enter your Last Name" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </p>
+        <p>
+            <label for="phone">Phone</label>
+            <input type="tel" name="Phone" id="phone" placeholder="Enter your phone" required>
+        </p>
+        <p>
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob" placeholder="Enter your DOB" required>
+        </p>
+        <p>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age" required>
+        </p>
+        <p>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Fav Food</strong></legend>
+        <p>
+            <label for="food">Food</label>
+            <select name="food" id="food">
+                <optgroup label="tiffin">
+                    <option value="Idlt">Idly</option>
+                    <option value="Dosai">Dosai</option>
+                    <option value="pongal">Pongal</option>
+                    <option value="poori">Poori</option>
+
+
+                </optgroup>
+                <optgroup label="lunch">
+                    <option value="briyani">Briyani</option>
+                    <option value="meals">Meals</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="chapathi">Poori</option>
+                </optgroup>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Fav Sport</strong></legend>
+        <p>
+            <label for="sport">Fav Sport</label>
+            <input type="text" name="sport" id="sport" placeholder="Enter your fav sport " list="sport-list">
+            <datalist id="sport-list">
+                <option value="Volly Ball"></option>
+                <option value="Hand Ball"></option>
+                <option value="cricket"></option>
+                <option value="Foot Ball"></option>
+                <option value="Tenis"></option>
+            </datalist>
+
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><strong>Skills</strong></legend>
+        <p>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html" value="html">
+        </p>
+        <p>
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css" value="css">
+        </p>
+        <p>
+            <label for="js">JS</label>
+            <input type="checkbox" name="js" id="js" value="js">
+        </p>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+
+</html>
