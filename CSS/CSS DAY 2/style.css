@@ -1,0 +1,49 @@
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    margin: 20px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+
+}
+.box1{
+    height: 500px;
+    width:500px;
+    margin: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+
+
+}
+
+
+.name{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
