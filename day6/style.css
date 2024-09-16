@@ -1,0 +1,31 @@
+.box{
+    height:600px;
+    width: 600px;
+    margin: 50px 50px 50px 50px;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+h1{
+    text-align: center;
+    border: 5px solid black;
+    border-color:black;
+    background-color:aqua;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+p{
+
+    text-align: justify;
+    border: 5px solid black;
+    border-color:black;
+    background-color:rosybrown;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
